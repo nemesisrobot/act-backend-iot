@@ -4,7 +4,7 @@
 
 from scripts.dao.banco import *
 from scripts.dao.notascortereliga import *
-
+from scripts.dao.statusdispositivocampo import *
 #constantes , dados de acesso ao servidor de banco
 HOST='localhost'
 PORT=27017
@@ -12,6 +12,7 @@ PORT=27017
 #objetos de acesso ao banco de dados e interação com banco
 COMUNICABANCO = MongoDBConexao(HOST,PORT)
 CONTROLENOTA = DispositivoNotas()
+CONTROLESTATUS = DispositivoStatus()
 
 #classe para realiza operações no banco de dados
 class OperacoesBanco:
@@ -42,4 +43,30 @@ class OperacoesBanco:
         nota = CONTROLENOTA.consultaNotaDispositivo(COMUNICABANCO.getConexaoMongo(),payload)
         CONTROLENOTA.removerNota(COMUNICABANCO.getConexaoMongo(),payload)
         return nota
+
+    #método para atualização de status do dispositivo
+    def statusDispositivo(self, payload):
+        device = {'device':payload['device']}
+        statusatual = CONTROLESTATUS.consultaStatusAtual(COMUNICABANCO.getConexaoMongo(), device)
+
+        #verifica se ja existe um status
+        if statusatual is None:
+            CONTROLESTATUS.insertStatus(COMUNICABANCO.getConexaoMongo(), payload)#apenas faz insert
+        else:
+            CONTROLESTATUS.removeUltimoStatus(COMUNICABANCO.getConexaoMongo(), device)#remove ultimo status
+            CONTROLESTATUS.insertStatus(COMUNICABANCO.getConexaoMongo(), payload)#inser status atual
+
+    #metodo para retornar todos os status
+    def todosOsStatus(self):
+        return CONTROLESTATUS.consultaStatus(COMUNICABANCO.getConexaoMongo())
+
+    #consulta status de um dispositivo especifico
+    def dispositivoStatus(self, payload):
+        return CONTROLESTATUS.consultaStatusAtual(COMUNICABANCO.getConexaoMongo(), payload)
+        
+        
+        
+            
+            
+        
 

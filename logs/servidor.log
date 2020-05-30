@@ -1051,3 +1051,32 @@
 [2020-05-26 00:39:50.762178]:Dispositivo {'device': 'xpto1'}, procurando por nota
 [2020-05-26 00:39:50.770372]:Nota encontrada
 [2020-05-26 00:39:50.770518]:Device: xpto1
+[2020-05-30 20:18:50.294822]:Atualizando status do device 1
+[2020-05-30 20:18:50.307633]:Respondendo com 201
+[2020-05-30 20:18:55.363490]:Atualizando status do device 0
+[2020-05-30 20:18:55.376024]:Respondendo com 201
+[2020-05-30 20:20:50.151108]:Dispositivo {'device': 'xpto1'}, procurando por status
+[2020-05-30 20:20:50.157859]:Dispositivo {'device': 'xpto1'}, Status encontrado
+[2020-05-30 20:20:50.158009]:Dispositivo {'device': 'xpto1'}, status 0
+[2020-05-30 20:21:56.224335]:Atualizando status do device xpto2
+[2020-05-30 20:21:56.238889]:Respondendo com 201
+[2020-05-30 20:22:01.356860]:Atualizando status do device xpto1
+[2020-05-30 20:22:01.371629]:Respondendo com 201
+[2020-05-30 20:22:12.708761]:Dispositivo {'device': 'xpto1'}, procurando por status
+[2020-05-30 20:22:12.713061]:Dispositivo {'device': 'xpto1'}, Status encontrado
+[2020-05-30 20:22:12.713202]:Dispositivo {'device': 'xpto1'}, status 1
+[2020-05-30 20:22:32.231553]:Checando status de todos os dispostivo
+[2020-05-30 20:22:32.248020]:{'device': 'xpto2', 'corte': 1, 'data': '2020-05-30 20:21:56.224230'}
+[2020-05-30 20:22:32.259867]:{'device': 'xpto1', 'corte': 1, 'data': '2020-05-30 20:22:01.356731'}
+[2020-05-30 20:25:32.646454]:Atualizando status do device xpto2
+[2020-05-30 20:25:32.660472]:Respondendo com 201
+[2020-05-30 20:25:37.680722]:Atualizando status do device xpto1
+[2020-05-30 20:25:37.693037]:Respondendo com 201
+[2020-05-30 20:25:37.964945]:Checando status de todos os dispositivos
+[2020-05-30 20:25:37.969023]:{'device': 'xpto2', 'corte': 0, 'data': '2020-05-30 20:25:32.646356'}
+[2020-05-30 20:25:37.969154]:{'device': 'xpto1', 'corte': 0, 'data': '2020-05-30 20:25:37.680535'}
+[2020-05-30 20:25:46.573429]:Dispositivo {'device': 'xpto'}, procurando por status
+[2020-05-30 20:25:46.578171]:Dispositivo {'device': 'xpto'}, sem status para esse dispositivo
+[2020-05-30 20:26:00.938342]:Dispositivo {'device': 'xpto1'}, procurando por status
+[2020-05-30 20:26:00.942977]:Dispositivo {'device': 'xpto1'}, Status encontrado
+[2020-05-30 20:26:00.943130]:Dispositivo {'device': 'xpto1'}, status 0
