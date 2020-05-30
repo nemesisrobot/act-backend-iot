@@ -10,6 +10,7 @@ import datetime
 
 #lista de notas
 listanotas = []
+listastatus = []
 
 #constante de controle de banco
 OPERACAO = OperacoesBanco()
@@ -71,6 +72,60 @@ def notaDispositivo(device):
         escreve('Nota encontrada')
         escreve('Device: {}'.format(respotadevice['device']))
         return jsonify({'device':respotadevice['device'], 'corte':respotadevice['corte'], 'data':respotadevice['data']})
+
+#end-point para atualização de status
+@app.route('/dispositivostatus', methods=['POST'])
+def atualizaStatusDispositivo():
+
+    #pega dados de post
+    dispositivocampo = request.get_json()
+
+    #gera payload
+    payload = {
+        'device':dispositivocampo['device'],
+        'corte':dispositivocampo['corte'],
+        'data':str(datetime.datetime.now())
+        }
+    
+    #executa procedimentos em base de dados
+    escreve('Atualizando status do device {}'.format(str(dispositivocampo['device'])))
+    OPERACAO.statusDispositivo(payload)
+
+    #retorna ok para device
+    escreve('Respondendo com {}'.format(str(201)))
+    return jsonify({'Mensagem':'ok'}),201
+    
+#end-point para retornar status de todos os dispositivos
+@app.route('/dispositivostatus', methods=['GET'])
+def todosOsStatusDispositivos():
+    listastatus.clear()
+    escreve('Checando status de todos os dispositivos')
+    status = OPERACAO.todosOsStatus()
+    for s in status:
+        print({'device':s['device'], 'corte':s['corte'], 'data':s['data']})
+        escreve(str({'device':s['device'], 'corte':s['corte'], 'data':s['data']}))
+        listastatus.append({'device':s['device'], 'corte':s['corte'], 'data':s['data']})
+    return jsonify(listastatus)
+
+#end-point para consulta especifica de um unico dispositivo    
+@app.route('/dispositivostatus/<string:device>', methods=['GET'])
+def consultaStatusDispositivo(device):
+    #montando dados
+    payload = {'device':str(device)}
+    sem_status = {'device':None, 'corte':None, 'data':None}
+
+    #fazendo busca
+    escreve('Dispositivo {}, procurando por status'.format(str(payload)))
+    status = OPERACAO.dispositivoStatus(payload)
+
+    if status is None:
+        escreve('Dispositivo {}, sem status para esse dispositivo'.format(str(payload)))
+        return jsonify(sem_status)
+    else:
+        escreve('Dispositivo {}, Status encontrado'.format(str(payload)))
+        escreve('Dispositivo {}, status {}'.format(str(payload),(str(status['corte']))))
+        return jsonify({'device':status['device'], 'corte':status['corte'], 'data':status['data']})
+    
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000)
