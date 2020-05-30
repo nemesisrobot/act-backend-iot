@@ -1,0 +1,1053 @@
+[2020-05-24 17:36:04.360072]:Cadastrando Nova nota de corte e religa
+[2020-05-24 17:36:04.360981]:Json recebido {'device': 'xpto3', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-24 17:36:04.378223]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecadab4eaeb884f044413ea'}
+[2020-05-24 17:36:29.990735]:Cadastrando Nova nota de corte e religa
+[2020-05-24 17:36:29.991149]:Json recebido {'device': 'xpto4', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-24 17:36:30.001992]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecadacdeaeb884f044413ed'}
+[2020-05-24 17:36:33.941128]:Cadastrando Nova nota de corte e religa
+[2020-05-24 17:36:33.941510]:Json recebido {'device': 'xpto4', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-24 17:36:33.945608]:Resposta {'mensagem': 'Já existe Uma nota'}
+[2020-05-24 17:36:49.551442]:Consultando todas as notas da base
+[2020-05-24 17:36:54.256855]:Consultando todas as notas da base
+[2020-05-24 17:36:59.981017]:Dispositivo {'device': 'xpto2'}, procurando por nota
+[2020-05-24 17:36:59.985859]:Nota encontrada
+[2020-05-24 17:36:59.985963]:Device: xpto2
+[2020-05-24 17:37:04.037031]:Dispositivo {'device': 'xpto3'}, procurando por nota
+[2020-05-24 17:37:04.042958]:Nota encontrada
+[2020-05-24 17:37:04.043315]:Device: xpto3
+[2020-05-24 17:37:10.663750]:Dispositivo {'device': 'asasadsasdf'}, procurando por nota
+[2020-05-24 17:37:10.667802]:Sem nota de corte e religa
+[2020-05-24 17:38:30.998877]:Consultando todas as notas da base
+[2020-05-24 17:38:50.321031]:Cadastrando Nova nota de corte e religa
+[2020-05-24 17:38:50.321507]:Json recebido {'device': 'xpto4', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-24 17:38:50.327624]:Resposta {'mensagem': 'Já existe Uma nota'}
+[2020-05-24 17:39:05.011856]:Cadastrando Nova nota de corte e religa
+[2020-05-24 17:39:05.012302]:Json recebido {'device': 'xpto5', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-24 17:39:05.022233]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecadb69eaeb884f044413f8'}
+[2020-05-24 18:49:38.022944]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-24 18:50:11.228419]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-24 18:50:11.237909]:Nota encontrada
+[2020-05-24 18:50:11.238037]:Device: xpto1
+[2020-05-24 18:50:32.940393]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-24 18:50:32.949861]:Sem nota de corte e religa
+[2020-05-24 18:50:52.364465]:Consultando todas as notas da base
+[2020-05-24 18:51:09.191240]:Dispositivo {'device': 'xpto3'}, procurando por nota
+[2020-05-24 18:51:09.201289]:Nota encontrada
+[2020-05-24 18:51:09.201421]:Device: xpto3
+[2020-05-24 18:55:44.175086]:Consultando todas as notas da base
+[2020-05-24 18:55:55.117390]:Dispositivo {'device': 'xpto3'}, procurando por nota
+[2020-05-24 18:55:55.125958]:Sem nota de corte e religa
+[2020-05-24 18:56:01.116681]:Consultando todas as notas da base
+[2020-05-24 18:56:30.117061]:Consultando todas as notas da base
+[2020-05-24 18:56:50.226513]:Consultando todas as notas da base
+[2020-05-24 18:56:53.300314]:Consultando todas as notas da base
+[2020-05-24 19:06:42.568581]:Consultando todas as notas da base
+[2020-05-24 19:06:43.815332]:Consultando todas as notas da base
+[2020-05-24 19:06:44.615496]:Consultando todas as notas da base
+[2020-05-24 19:06:44.828180]:Consultando todas as notas da base
+[2020-05-24 19:06:49.468754]:Consultando todas as notas da base
+[2020-05-24 19:06:51.351130]:Consultando todas as notas da base
+[2020-05-24 19:07:35.081420]:Consultando todas as notas da base
+[2020-05-24 19:20:18.332710]:Consultando todas as notas da base
+[2020-05-25 16:06:31.056378]:Consultando todas as notas da base
+[2020-05-25 16:18:11.570420]:Consultando todas as notas da base
+[2020-05-25 16:18:17.339849]:Cadastrando Nova nota de corte e religa
+[2020-05-25 16:18:17.340409]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 16:18:17.391708]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc19f967f7a7f6a1a5b63c'}
+[2020-05-25 16:18:32.263196]:Consultando todas as notas da base
+[2020-05-25 16:18:36.064677]:Consultando todas as notas da base
+[2020-05-25 16:18:37.184790]:Consultando todas as notas da base
+[2020-05-25 16:19:25.730244]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:19:25.747478]:Nota encontrada
+[2020-05-25 16:19:25.747647]:Device: xpto1
+[2020-05-25 16:19:57.540957]:Cadastrando Nova nota de corte e religa
+[2020-05-25 16:19:57.541374]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 16:19:57.551859]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc1a5d67f7a7f6a1a5b644'}
+[2020-05-25 16:20:25.861431]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:20:25.877021]:Nota encontrada
+[2020-05-25 16:20:25.877243]:Device: xpto1
+[2020-05-25 16:20:48.319562]:Cadastrando Nova nota de corte e religa
+[2020-05-25 16:20:48.320123]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 16:20:48.331366]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc1a9067f7a7f6a1a5b649'}
+[2020-05-25 16:21:25.977464]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:21:25.992479]:Nota encontrada
+[2020-05-25 16:21:25.992627]:Device: xpto1
+[2020-05-25 16:22:26.127149]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:22:26.140935]:Sem nota de corte e religa
+[2020-05-25 16:27:57.160847]:Cadastrando Nova nota de corte e religa
+[2020-05-25 16:27:57.161398]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 16:27:57.173331]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc1c3d67f7a7f6a1a5b650'}
+[2020-05-25 16:44:47.566924]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:44:47.581743]:Nota encontrada
+[2020-05-25 16:44:47.581956]:Device: xpto1
+[2020-05-25 16:45:12.312064]:Cadastrando Nova nota de corte e religa
+[2020-05-25 16:45:12.312534]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 16:45:12.321546]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc204867f7a7f6a1a5b655'}
+[2020-05-25 16:45:47.742068]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:45:47.758228]:Nota encontrada
+[2020-05-25 16:45:47.758474]:Device: xpto1
+[2020-05-25 16:47:18.802788]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 16:47:18.809708]:Sem nota de corte e religa
+[2020-05-25 16:49:16.379556]:Dispositivo {'device': 'assdd'}, procurando por nota
+[2020-05-25 16:49:16.387422]:Sem nota de corte e religa
+[2020-05-25 16:59:37.326066]:Dispositivo {'device': 'asss'}, procurando por nota
+[2020-05-25 16:59:37.335721]:Sem nota de corte e religa
+[2020-05-25 17:01:57.735485]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:01:57.751944]:Sem nota de corte e religa
+[2020-05-25 17:02:30.949152]:Cadastrando Nova nota de corte e religa
+[2020-05-25 17:02:30.949603]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 17:02:30.959185]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc24560fab0219e49dab23'}
+[2020-05-25 17:02:57.899469]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:02:57.914523]:Nota encontrada
+[2020-05-25 17:02:57.914713]:Device: xpto1
+[2020-05-25 17:03:58.030859]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:03:58.048439]:Sem nota de corte e religa
+[2020-05-25 17:04:58.149375]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:04:58.165327]:Sem nota de corte e religa
+[2020-05-25 17:05:58.296093]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:05:58.312378]:Sem nota de corte e religa
+[2020-05-25 17:06:19.632406]:Cadastrando Nova nota de corte e religa
+[2020-05-25 17:06:19.632849]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 17:06:19.643540]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc253b0fab0219e49dab2e'}
+[2020-05-25 17:06:58.470387]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:06:58.486224]:Nota encontrada
+[2020-05-25 17:06:58.486389]:Device: xpto1
+[2020-05-25 17:07:58.614593]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:07:58.630672]:Sem nota de corte e religa
+[2020-05-25 17:08:58.737495]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:08:58.755763]:Sem nota de corte e religa
+[2020-05-25 17:09:58.833577]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:09:58.850290]:Sem nota de corte e religa
+[2020-05-25 17:10:58.994667]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:10:59.011048]:Sem nota de corte e religa
+[2020-05-25 17:11:59.377567]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:11:59.392369]:Sem nota de corte e religa
+[2020-05-25 17:12:59.506547]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:12:59.522768]:Sem nota de corte e religa
+[2020-05-25 17:13:43.231134]:Dispositivo {'device': 'xpto2'}, procurando por nota
+[2020-05-25 17:13:43.240427]:Nota encontrada
+[2020-05-25 17:13:43.240635]:Device: xpto2
+[2020-05-25 17:13:49.467545]:Dispositivo {'device': 'xpto2'}, procurando por nota
+[2020-05-25 17:13:49.477103]:Nota encontrada
+[2020-05-25 17:13:49.477272]:Device: xpto2
+[2020-05-25 17:13:59.722048]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:13:59.731782]:Sem nota de corte e religa
+[2020-05-25 17:14:20.070896]:Cadastrando Nova nota de corte e religa
+[2020-05-25 17:14:20.071269]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 17:14:20.081055]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc271c0fab0219e49dab45'}
+[2020-05-25 17:14:59.857623]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:14:59.873752]:Nota encontrada
+[2020-05-25 17:14:59.873968]:Device: xpto1
+[2020-05-25 17:15:59.992109]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:16:00.008351]:Sem nota de corte e religa
+[2020-05-25 17:17:00.108462]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:17:00.126315]:Sem nota de corte e religa
+[2020-05-25 17:18:00.229624]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:18:00.246794]:Sem nota de corte e religa
+[2020-05-25 17:19:00.401115]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:19:00.416093]:Sem nota de corte e religa
+[2020-05-25 17:20:00.551077]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:20:00.566452]:Sem nota de corte e religa
+[2020-05-25 17:21:00.669301]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:21:00.685828]:Sem nota de corte e religa
+[2020-05-25 17:22:00.764455]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:22:00.779187]:Sem nota de corte e religa
+[2020-05-25 17:23:00.910505]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:23:00.923250]:Sem nota de corte e religa
+[2020-05-25 17:26:02.485353]:Cadastrando Nova nota de corte e religa
+[2020-05-25 17:26:02.488949]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 17:26:02.508387]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc29da0fab0219e49dab5a'}
+[2020-05-25 17:31:45.057468]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:31:45.074024]:Nota encontrada
+[2020-05-25 17:31:45.074169]:Device: xpto1
+[2020-05-25 17:32:45.171360]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:32:45.187338]:Sem nota de corte e religa
+[2020-05-25 17:33:28.087787]:Cadastrando Nova nota de corte e religa
+[2020-05-25 17:33:28.088276]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 17:33:28.099102]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc2b980fab0219e49dab61'}
+[2020-05-25 17:33:45.300952]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:33:45.316601]:Nota encontrada
+[2020-05-25 17:33:45.316820]:Device: xpto1
+[2020-05-25 17:34:45.454135]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:34:45.470472]:Sem nota de corte e religa
+[2020-05-25 17:35:45.596804]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:35:45.613673]:Sem nota de corte e religa
+[2020-05-25 17:36:45.715054]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:36:45.732260]:Sem nota de corte e religa
+[2020-05-25 17:37:45.836845]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:37:45.852830]:Sem nota de corte e religa
+[2020-05-25 17:38:46.010082]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:38:46.023865]:Sem nota de corte e religa
+[2020-05-25 17:39:46.131902]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:39:46.144730]:Sem nota de corte e religa
+[2020-05-25 17:52:28.317902]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:52:28.335902]:Sem nota de corte e religa
+[2020-05-25 17:53:28.489690]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:53:28.500573]:Sem nota de corte e religa
+[2020-05-25 17:54:28.637219]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:54:28.652845]:Sem nota de corte e religa
+[2020-05-25 17:55:28.759416]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:55:28.775547]:Sem nota de corte e religa
+[2020-05-25 17:56:28.880044]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:56:28.894450]:Sem nota de corte e religa
+[2020-05-25 17:57:28.999406]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:57:29.015133]:Sem nota de corte e religa
+[2020-05-25 17:58:29.159901]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:58:29.179115]:Sem nota de corte e religa
+[2020-05-25 17:59:29.532548]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 17:59:29.547235]:Sem nota de corte e religa
+[2020-05-25 18:00:29.942346]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:00:29.959779]:Sem nota de corte e religa
+[2020-05-25 18:01:30.135363]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:01:30.150937]:Sem nota de corte e religa
+[2020-05-25 18:02:30.308058]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:02:30.323954]:Sem nota de corte e religa
+[2020-05-25 18:02:35.191860]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:02:35.192466]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:02:35.201952]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc326b0fab0219e49dab88'}
+[2020-05-25 18:03:30.455444]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:03:30.470856]:Nota encontrada
+[2020-05-25 18:03:30.471022]:Device: xpto1
+[2020-05-25 18:04:30.549731]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:04:30.567035]:Sem nota de corte e religa
+[2020-05-25 18:05:30.676813]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:05:30.693567]:Sem nota de corte e religa
+[2020-05-25 18:06:22.533743]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:06:22.534260]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:06:22.544790]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc334e0fab0219e49dab91'}
+[2020-05-25 18:06:30.819954]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:06:30.839302]:Nota encontrada
+[2020-05-25 18:06:30.839567]:Device: xpto1
+[2020-05-25 18:06:43.661439]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:06:43.661882]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:06:43.672661]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc33630fab0219e49dab96'}
+[2020-05-25 18:07:30.964341]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:07:30.979314]:Nota encontrada
+[2020-05-25 18:07:30.979497]:Device: xpto1
+[2020-05-25 18:07:47.202784]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:07:47.203329]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:07:47.213921]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc33a30fab0219e49dab9b'}
+[2020-05-25 18:08:31.084864]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:08:31.102154]:Nota encontrada
+[2020-05-25 18:08:31.102379]:Device: xpto1
+[2020-05-25 18:11:44.892372]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:11:44.907709]:Sem nota de corte e religa
+[2020-05-25 18:12:45.033351]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:12:45.048335]:Sem nota de corte e religa
+[2020-05-25 18:13:45.253507]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:13:45.271262]:Sem nota de corte e religa
+[2020-05-25 18:14:45.373365]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:14:45.390008]:Sem nota de corte e religa
+[2020-05-25 18:15:45.494897]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:15:45.511535]:Sem nota de corte e religa
+[2020-05-25 18:16:45.616348]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:16:45.632835]:Sem nota de corte e religa
+[2020-05-25 18:17:42.122394]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:17:42.123191]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:17:42.138689]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc35f60fab0219e49dabac'}
+[2020-05-25 18:17:45.764084]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:17:45.780761]:Nota encontrada
+[2020-05-25 18:17:45.781005]:Device: xpto1
+[2020-05-25 18:18:46.959663]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:18:46.975497]:Sem nota de corte e religa
+[2020-05-25 18:19:47.160352]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:19:47.176308]:Sem nota de corte e religa
+[2020-05-25 18:20:38.963522]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:20:38.964379]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:20:38.980007]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc36a60fab0219e49dabb5'}
+[2020-05-25 18:20:47.378991]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:20:47.395144]:Nota encontrada
+[2020-05-25 18:20:47.395282]:Device: xpto1
+[2020-05-25 18:21:47.500130]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:21:47.516494]:Sem nota de corte e religa
+[2020-05-25 18:22:47.647262]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:22:47.663381]:Sem nota de corte e religa
+[2020-05-25 18:23:49.047665]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:23:49.064370]:Sem nota de corte e religa
+[2020-05-25 18:24:49.466930]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:24:49.482343]:Sem nota de corte e religa
+[2020-05-25 18:25:49.885558]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:25:49.900490]:Sem nota de corte e religa
+[2020-05-25 18:26:49.993086]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:26:50.009155]:Sem nota de corte e religa
+[2020-05-25 18:27:03.034571]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:27:03.035295]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:27:03.050955]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc38270fab0219e49dabc6'}
+[2020-05-25 18:27:51.127408]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:27:51.139735]:Nota encontrada
+[2020-05-25 18:27:51.139938]:Device: xpto1
+[2020-05-25 18:28:51.282346]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:28:51.301129]:Sem nota de corte e religa
+[2020-05-25 18:29:51.396606]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:29:51.412369]:Sem nota de corte e religa
+[2020-05-25 18:30:51.548991]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:30:51.564622]:Sem nota de corte e religa
+[2020-05-25 18:31:51.689896]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:31:51.705373]:Sem nota de corte e religa
+[2020-05-25 18:32:46.996193]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:32:46.996974]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:32:47.010894]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc397f0fab0219e49dabd3'}
+[2020-05-25 18:32:51.850943]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:32:51.867856]:Nota encontrada
+[2020-05-25 18:32:51.868075]:Device: xpto1
+[2020-05-25 18:35:25.987947]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:35:26.002311]:Sem nota de corte e religa
+[2020-05-25 18:36:26.231799]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:36:26.245176]:Sem nota de corte e religa
+[2020-05-25 18:37:26.354575]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:37:26.366920]:Sem nota de corte e religa
+[2020-05-25 18:38:26.480938]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:38:26.495343]:Sem nota de corte e religa
+[2020-05-25 18:39:26.648555]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:39:26.660930]:Sem nota de corte e religa
+[2020-05-25 18:40:26.771585]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:40:26.786227]:Sem nota de corte e religa
+[2020-05-25 18:41:26.940113]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:41:26.956660]:Sem nota de corte e religa
+[2020-05-25 18:42:27.036609]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:42:27.052730]:Sem nota de corte e religa
+[2020-05-25 18:43:27.185885]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:43:27.202993]:Sem nota de corte e religa
+[2020-05-25 18:44:27.570435]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:44:27.584746]:Sem nota de corte e religa
+[2020-05-25 18:45:28.807883]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:45:28.825127]:Sem nota de corte e religa
+[2020-05-25 18:46:29.103040]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:46:29.119788]:Sem nota de corte e religa
+[2020-05-25 18:47:29.243806]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:47:29.258863]:Sem nota de corte e religa
+[2020-05-25 18:47:33.223537]:Cadastrando Nova nota de corte e religa
+[2020-05-25 18:47:33.224339]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 18:47:33.238581]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc3cf50fab0219e49dabf2'}
+[2020-05-25 18:48:29.455336]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:48:29.472491]:Nota encontrada
+[2020-05-25 18:48:29.472712]:Device: xpto1
+[2020-05-25 18:49:29.707595]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:49:29.723405]:Sem nota de corte e religa
+[2020-05-25 18:50:29.962369]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:50:29.979539]:Sem nota de corte e religa
+[2020-05-25 18:51:30.081810]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:51:30.097472]:Sem nota de corte e religa
+[2020-05-25 18:52:31.211162]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:52:31.227311]:Sem nota de corte e religa
+[2020-05-25 18:53:31.648070]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:53:31.664383]:Sem nota de corte e religa
+[2020-05-25 18:54:31.794780]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:54:31.809573]:Sem nota de corte e religa
+[2020-05-25 18:55:31.916539]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:55:31.929205]:Sem nota de corte e religa
+[2020-05-25 18:56:32.041909]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:56:32.060196]:Sem nota de corte e religa
+[2020-05-25 18:57:32.213961]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:57:32.231254]:Sem nota de corte e religa
+[2020-05-25 18:58:32.332420]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:58:32.348393]:Sem nota de corte e religa
+[2020-05-25 18:59:32.457119]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 18:59:32.473470]:Sem nota de corte e religa
+[2020-05-25 19:00:32.602549]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:00:32.618063]:Sem nota de corte e religa
+[2020-05-25 19:01:32.721716]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:01:32.737167]:Sem nota de corte e religa
+[2020-05-25 19:02:32.873939]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:02:32.888871]:Sem nota de corte e religa
+[2020-05-25 19:03:33.015145]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:03:33.032447]:Sem nota de corte e religa
+[2020-05-25 19:04:33.137765]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:04:33.153867]:Sem nota de corte e religa
+[2020-05-25 19:05:35.542184]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:05:35.560102]:Sem nota de corte e religa
+[2020-05-25 19:06:37.236149]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:06:37.252162]:Sem nota de corte e religa
+[2020-05-25 19:07:37.353773]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:07:37.368742]:Sem nota de corte e religa
+[2020-05-25 19:08:37.475996]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:08:37.492878]:Sem nota de corte e religa
+[2020-05-25 19:09:37.651782]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:09:37.667942]:Sem nota de corte e religa
+[2020-05-25 19:10:37.796041]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:10:37.811603]:Sem nota de corte e religa
+[2020-05-25 19:11:37.913459]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:11:37.930660]:Sem nota de corte e religa
+[2020-05-25 19:12:38.061676]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:12:38.076326]:Sem nota de corte e religa
+[2020-05-25 19:13:38.186627]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:13:38.203266]:Sem nota de corte e religa
+[2020-05-25 19:14:38.328180]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:14:38.344767]:Sem nota de corte e religa
+[2020-05-25 19:15:38.757768]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:15:38.774644]:Sem nota de corte e religa
+[2020-05-25 19:16:38.907059]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:16:38.922811]:Sem nota de corte e religa
+[2020-05-25 19:17:39.019502]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:17:39.035033]:Sem nota de corte e religa
+[2020-05-25 19:18:39.170150]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:18:39.183261]:Sem nota de corte e religa
+[2020-05-25 19:19:39.313169]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:19:39.329957]:Sem nota de corte e religa
+[2020-05-25 19:20:39.432898]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:20:39.448135]:Sem nota de corte e religa
+[2020-05-25 19:21:39.581966]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:21:39.597728]:Sem nota de corte e religa
+[2020-05-25 19:22:39.705698]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:22:39.722331]:Sem nota de corte e religa
+[2020-05-25 19:23:39.847246]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:23:39.859609]:Sem nota de corte e religa
+[2020-05-25 19:24:39.970539]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:24:39.984996]:Sem nota de corte e religa
+[2020-05-25 19:25:40.126261]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:25:40.142740]:Sem nota de corte e religa
+[2020-05-25 19:26:40.591180]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:26:40.609365]:Sem nota de corte e religa
+[2020-05-25 19:27:40.709330]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:27:40.725065]:Sem nota de corte e religa
+[2020-05-25 19:28:40.830957]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:28:40.845163]:Sem nota de corte e religa
+[2020-05-25 19:29:41.179262]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:29:41.196609]:Sem nota de corte e religa
+[2020-05-25 19:30:41.328692]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:30:41.345138]:Sem nota de corte e religa
+[2020-05-25 19:30:54.555654]:Cadastrando Nova nota de corte e religa
+[2020-05-25 19:30:54.556534]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 19:30:54.571943]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc471e0fab0219e49dac4b'}
+[2020-05-25 19:31:41.420976]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:31:41.440385]:Nota encontrada
+[2020-05-25 19:31:41.440691]:Device: xpto1
+[2020-05-25 19:32:41.569380]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:32:41.585171]:Sem nota de corte e religa
+[2020-05-25 19:33:41.720218]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:33:41.739720]:Sem nota de corte e religa
+[2020-05-25 19:34:32.844294]:Cadastrando Nova nota de corte e religa
+[2020-05-25 19:34:32.845023]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 19:34:32.860416]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc47f80fab0219e49dac54'}
+[2020-05-25 19:34:41.892070]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:34:41.907327]:Nota encontrada
+[2020-05-25 19:34:41.907521]:Device: xpto1
+[2020-05-25 19:35:22.100246]:Cadastrando Nova nota de corte e religa
+[2020-05-25 19:35:22.101027]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 19:35:22.116053]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc482a0fab0219e49dac59'}
+[2020-05-25 19:35:42.015818]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:35:42.031718]:Nota encontrada
+[2020-05-25 19:35:42.031943]:Device: xpto1
+[2020-05-25 19:36:42.133939]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:36:42.149756]:Sem nota de corte e religa
+[2020-05-25 19:37:42.254909]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:37:42.270666]:Sem nota de corte e religa
+[2020-05-25 19:38:42.400034]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:38:42.418185]:Sem nota de corte e religa
+[2020-05-25 19:39:42.523766]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:39:42.540998]:Sem nota de corte e religa
+[2020-05-25 19:40:42.672319]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:40:42.688245]:Sem nota de corte e religa
+[2020-05-25 19:41:42.824745]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:41:42.843922]:Sem nota de corte e religa
+[2020-05-25 19:42:42.936402]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:42:42.944385]:Sem nota de corte e religa
+[2020-05-25 19:43:43.083632]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:43:43.099143]:Sem nota de corte e religa
+[2020-05-25 19:44:43.261191]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:44:43.278112]:Sem nota de corte e religa
+[2020-05-25 19:45:44.403134]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:45:44.418651]:Sem nota de corte e religa
+[2020-05-25 19:46:44.525419]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:46:44.542061]:Sem nota de corte e religa
+[2020-05-25 19:47:44.646347]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:47:44.662595]:Sem nota de corte e religa
+[2020-05-25 19:48:44.799954]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:48:44.816456]:Sem nota de corte e religa
+[2020-05-25 19:49:45.340407]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:49:45.356104]:Sem nota de corte e religa
+[2020-05-25 19:50:45.463814]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:50:45.480822]:Sem nota de corte e religa
+[2020-05-25 19:51:45.583396]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:51:45.599878]:Sem nota de corte e religa
+[2020-05-25 19:52:45.717483]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:52:45.733178]:Sem nota de corte e religa
+[2020-05-25 19:53:45.859027]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:53:45.874780]:Sem nota de corte e religa
+[2020-05-25 19:54:46.055440]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:54:46.069952]:Sem nota de corte e religa
+[2020-05-25 19:55:46.145810]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:55:46.162271]:Sem nota de corte e religa
+[2020-05-25 19:56:46.272992]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:56:46.287913]:Sem nota de corte e religa
+[2020-05-25 19:57:46.437210]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:57:46.451249]:Sem nota de corte e religa
+[2020-05-25 19:58:46.537625]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:58:46.553425]:Sem nota de corte e religa
+[2020-05-25 19:59:46.683729]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 19:59:46.696883]:Sem nota de corte e religa
+[2020-05-25 20:00:46.829191]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:00:46.843130]:Sem nota de corte e religa
+[2020-05-25 20:01:46.981282]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:01:46.997002]:Sem nota de corte e religa
+[2020-05-25 20:02:47.196763]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:02:47.215184]:Sem nota de corte e religa
+[2020-05-25 20:03:47.371570]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:03:47.387085]:Sem nota de corte e religa
+[2020-05-25 20:04:47.466272]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:04:47.482968]:Sem nota de corte e religa
+[2020-05-25 20:05:47.613187]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:05:47.628825]:Sem nota de corte e religa
+[2020-05-25 20:06:47.780208]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:06:47.798027]:Sem nota de corte e religa
+[2020-05-25 20:07:47.928596]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:07:47.944866]:Sem nota de corte e religa
+[2020-05-25 20:08:49.029334]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:08:49.046018]:Sem nota de corte e religa
+[2020-05-25 20:09:49.716440]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:09:49.732722]:Sem nota de corte e religa
+[2020-05-25 20:10:49.915880]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:10:49.933128]:Sem nota de corte e religa
+[2020-05-25 20:11:50.059903]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:11:50.076607]:Sem nota de corte e religa
+[2020-05-25 20:12:50.153481]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:12:50.170223]:Sem nota de corte e religa
+[2020-05-25 20:13:50.301610]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:13:50.319425]:Sem nota de corte e religa
+[2020-05-25 20:14:50.447825]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:14:50.463625]:Sem nota de corte e religa
+[2020-05-25 20:15:51.593388]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:15:51.606475]:Sem nota de corte e religa
+[2020-05-25 20:16:51.719382]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:16:51.731100]:Sem nota de corte e religa
+[2020-05-25 20:17:51.833989]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:17:51.848898]:Sem nota de corte e religa
+[2020-05-25 20:18:52.033640]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:18:52.048192]:Sem nota de corte e religa
+[2020-05-25 20:19:52.203243]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:19:52.217857]:Sem nota de corte e religa
+[2020-05-25 20:20:52.370560]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:20:52.387814]:Sem nota de corte e religa
+[2020-05-25 20:21:52.523698]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:21:52.537126]:Sem nota de corte e religa
+[2020-05-25 20:22:52.613131]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:22:52.629222]:Sem nota de corte e religa
+[2020-05-25 20:23:54.844032]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:23:54.859665]:Sem nota de corte e religa
+[2020-05-25 20:24:55.457397]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:24:55.475238]:Sem nota de corte e religa
+[2020-05-25 20:25:55.625957]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:25:55.641260]:Sem nota de corte e religa
+[2020-05-25 20:26:55.785069]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:26:55.800605]:Sem nota de corte e religa
+[2020-05-25 20:27:55.922366]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:27:55.938573]:Sem nota de corte e religa
+[2020-05-25 20:28:56.042922]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:28:56.058833]:Sem nota de corte e religa
+[2020-05-25 20:29:56.164191]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:29:56.180138]:Sem nota de corte e religa
+[2020-05-25 20:30:56.309373]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:30:56.325776]:Sem nota de corte e religa
+[2020-05-25 20:31:56.453446]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:31:56.470350]:Sem nota de corte e religa
+[2020-05-25 20:32:56.575400]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:32:56.592137]:Sem nota de corte e religa
+[2020-05-25 20:33:11.323121]:Cadastrando Nova nota de corte e religa
+[2020-05-25 20:33:11.323919]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 20:33:11.339765]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc55b70fab0219e49dacd0'}
+[2020-05-25 20:33:56.721766]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:33:56.737406]:Nota encontrada
+[2020-05-25 20:33:56.737569]:Device: xpto1
+[2020-05-25 20:34:56.905315]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:34:56.921557]:Sem nota de corte e religa
+[2020-05-25 20:35:57.105295]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:35:57.119887]:Sem nota de corte e religa
+[2020-05-25 20:36:57.474029]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:36:57.489353]:Sem nota de corte e religa
+[2020-05-25 20:37:57.583803]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:37:57.596163]:Sem nota de corte e religa
+[2020-05-25 20:38:57.704353]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:38:57.718989]:Sem nota de corte e religa
+[2020-05-25 20:39:58.629047]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:39:58.645975]:Sem nota de corte e religa
+[2020-05-25 20:40:58.745660]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:40:58.761601]:Sem nota de corte e religa
+[2020-05-25 20:41:58.896988]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:41:58.913257]:Sem nota de corte e religa
+[2020-05-25 20:42:59.038929]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:42:59.054022]:Sem nota de corte e religa
+[2020-05-25 20:43:59.162044]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:43:59.178141]:Sem nota de corte e religa
+[2020-05-25 20:44:59.306839]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:44:59.322161]:Sem nota de corte e religa
+[2020-05-25 20:45:59.430808]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:45:59.446676]:Sem nota de corte e religa
+[2020-05-25 20:46:59.574305]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:46:59.590352]:Sem nota de corte e religa
+[2020-05-25 20:47:59.696451]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:47:59.711919]:Sem nota de corte e religa
+[2020-05-25 20:48:59.861320]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:48:59.879230]:Sem nota de corte e religa
+[2020-05-25 20:49:59.989535]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:50:00.005818]:Sem nota de corte e religa
+[2020-05-25 20:50:44.848337]:Cadastrando Nova nota de corte e religa
+[2020-05-25 20:50:44.849392]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 20:50:44.863508]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc59d40fab0219e49dacf5'}
+[2020-05-25 20:51:00.114478]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:51:00.129432]:Nota encontrada
+[2020-05-25 20:51:00.129570]:Device: xpto1
+[2020-05-25 20:52:00.255382]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:52:00.270637]:Sem nota de corte e religa
+[2020-05-25 20:53:00.379738]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:53:00.396591]:Sem nota de corte e religa
+[2020-05-25 20:54:00.529670]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:54:00.545629]:Sem nota de corte e religa
+[2020-05-25 20:55:01.675977]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:55:01.693561]:Sem nota de corte e religa
+[2020-05-25 20:56:03.212852]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:56:03.228902]:Sem nota de corte e religa
+[2020-05-25 20:57:04.741359]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:57:04.758139]:Sem nota de corte e religa
+[2020-05-25 20:58:04.858624]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:58:04.875550]:Sem nota de corte e religa
+[2020-05-25 20:59:05.004449]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 20:59:05.019116]:Sem nota de corte e religa
+[2020-05-25 21:00:07.167001]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:00:07.182936]:Sem nota de corte e religa
+[2020-05-25 21:01:08.028868]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:01:08.044477]:Sem nota de corte e religa
+[2020-05-25 21:02:08.350508]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:02:08.366238]:Sem nota de corte e religa
+[2020-05-25 21:03:08.469788]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:03:08.484045]:Sem nota de corte e religa
+[2020-05-25 21:04:08.588303]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:04:08.604396]:Sem nota de corte e religa
+[2020-05-25 21:05:08.714572]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:05:08.730271]:Sem nota de corte e religa
+[2020-05-25 21:06:08.859200]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:06:08.874700]:Sem nota de corte e religa
+[2020-05-25 21:07:09.026162]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:07:09.043661]:Sem nota de corte e religa
+[2020-05-25 21:08:09.126888]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:08:09.143813]:Sem nota de corte e religa
+[2020-05-25 21:09:09.250860]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:09:09.267358]:Sem nota de corte e religa
+[2020-05-25 21:10:09.389316]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:10:09.406430]:Sem nota de corte e religa
+[2020-05-25 21:11:09.513688]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:11:09.531075]:Sem nota de corte e religa
+[2020-05-25 21:12:10.184610]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:12:10.201316]:Sem nota de corte e religa
+[2020-05-25 21:13:10.304097]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:13:10.322099]:Sem nota de corte e religa
+[2020-05-25 21:14:10.424618]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:14:10.440046]:Sem nota de corte e religa
+[2020-05-25 21:15:10.574623]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:15:10.590778]:Sem nota de corte e religa
+[2020-05-25 21:16:10.721823]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:16:10.736702]:Sem nota de corte e religa
+[2020-05-25 21:17:10.839705]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:17:10.856370]:Sem nota de corte e religa
+[2020-05-25 21:18:10.963031]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:18:10.976571]:Sem nota de corte e religa
+[2020-05-25 21:19:11.121066]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:19:11.136242]:Sem nota de corte e religa
+[2020-05-25 21:20:11.252748]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:20:11.268627]:Sem nota de corte e religa
+[2020-05-25 21:21:11.377455]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:21:11.393704]:Sem nota de corte e religa
+[2020-05-25 21:22:11.495996]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:22:11.510284]:Sem nota de corte e religa
+[2020-05-25 21:23:11.658079]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:23:11.675385]:Sem nota de corte e religa
+[2020-05-25 21:24:12.114014]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:24:12.130532]:Sem nota de corte e religa
+[2020-05-25 21:25:12.259758]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:25:12.275651]:Sem nota de corte e religa
+[2020-05-25 21:26:12.386358]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:26:12.401870]:Sem nota de corte e religa
+[2020-05-25 21:27:12.502555]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:27:12.519342]:Sem nota de corte e religa
+[2020-05-25 21:28:13.639168]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:28:13.655511]:Sem nota de corte e religa
+[2020-05-25 21:29:13.746566]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:29:13.762356]:Sem nota de corte e religa
+[2020-05-25 21:30:13.903464]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:30:13.920035]:Sem nota de corte e religa
+[2020-05-25 21:31:16.063778]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:31:16.076957]:Sem nota de corte e religa
+[2020-05-25 21:32:16.218239]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:32:16.235757]:Sem nota de corte e religa
+[2020-05-25 21:33:16.418072]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:33:16.432962]:Sem nota de corte e religa
+[2020-05-25 21:34:16.541573]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:34:16.557522]:Sem nota de corte e religa
+[2020-05-25 21:35:16.695291]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:35:16.710448]:Sem nota de corte e religa
+[2020-05-25 21:36:17.850479]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:36:17.867413]:Sem nota de corte e religa
+[2020-05-25 21:37:17.968379]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:37:17.984649]:Sem nota de corte e religa
+[2020-05-25 21:38:18.125126]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:38:18.141137]:Sem nota de corte e religa
+[2020-05-25 21:39:18.288488]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:39:18.304486]:Sem nota de corte e religa
+[2020-05-25 21:40:18.409528]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:40:18.425674]:Sem nota de corte e religa
+[2020-05-25 21:41:19.532360]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:41:19.543217]:Sem nota de corte e religa
+[2020-05-25 21:41:30.726018]:Consultando todas as notas da base
+[2020-05-25 21:42:19.662143]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:42:19.680307]:Sem nota de corte e religa
+[2020-05-25 21:43:20.127026]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:43:20.142737]:Sem nota de corte e religa
+[2020-05-25 21:44:20.258916]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:44:20.274761]:Sem nota de corte e religa
+[2020-05-25 21:45:20.409083]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:45:20.424894]:Sem nota de corte e religa
+[2020-05-25 21:46:20.581461]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:46:20.596370]:Sem nota de corte e religa
+[2020-05-25 21:47:21.048691]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:47:21.063848]:Sem nota de corte e religa
+[2020-05-25 21:48:22.318088]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:48:22.333570]:Sem nota de corte e religa
+[2020-05-25 21:49:22.563495]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:49:22.579700]:Sem nota de corte e religa
+[2020-05-25 21:50:22.910422]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:50:22.927911]:Sem nota de corte e religa
+[2020-05-25 21:51:24.283647]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:51:24.299423]:Sem nota de corte e religa
+[2020-05-25 21:52:24.708682]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:52:24.724531]:Sem nota de corte e religa
+[2020-05-25 21:53:24.907473]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:53:24.924910]:Sem nota de corte e religa
+[2020-05-25 21:54:25.250006]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:54:25.266365]:Sem nota de corte e religa
+[2020-05-25 21:55:25.345224]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:55:25.360952]:Sem nota de corte e religa
+[2020-05-25 21:56:25.471257]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:56:25.487783]:Sem nota de corte e religa
+[2020-05-25 21:57:25.632014]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:57:25.648370]:Sem nota de corte e religa
+[2020-05-25 21:57:40.307422]:Cadastrando Nova nota de corte e religa
+[2020-05-25 21:57:40.309006]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '20/04/2020 10:10:10'}
+[2020-05-25 21:57:40.324445]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc69840fab0219e49dad7f'}
+[2020-05-25 21:58:25.749146]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:58:25.766463]:Nota encontrada
+[2020-05-25 21:58:25.766697]:Device: xpto1
+[2020-05-25 21:59:25.884212]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 21:59:25.897742]:Sem nota de corte e religa
+[2020-05-25 22:00:26.050258]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:00:26.063704]:Sem nota de corte e religa
+[2020-05-25 22:01:26.180341]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:01:26.196592]:Sem nota de corte e religa
+[2020-05-25 22:02:26.304880]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:02:26.322103]:Sem nota de corte e religa
+[2020-05-25 22:03:26.446628]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:03:26.461304]:Sem nota de corte e religa
+[2020-05-25 22:04:26.572094]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:04:26.587296]:Sem nota de corte e religa
+[2020-05-25 22:05:26.718957]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:05:26.734811]:Sem nota de corte e religa
+[2020-05-25 22:06:26.860594]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:06:26.876003]:Sem nota de corte e religa
+[2020-05-25 22:07:27.056749]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:07:27.070083]:Sem nota de corte e religa
+[2020-05-25 22:08:27.228777]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:08:27.245039]:Sem nota de corte e religa
+[2020-05-25 22:09:27.389220]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:09:27.404991]:Sem nota de corte e religa
+[2020-05-25 22:10:27.598413]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:10:27.613072]:Sem nota de corte e religa
+[2020-05-25 22:11:27.755885]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:11:27.775508]:Sem nota de corte e religa
+[2020-05-25 22:12:27.866126]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:12:27.883176]:Sem nota de corte e religa
+[2020-05-25 22:13:28.036619]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:13:28.050583]:Sem nota de corte e religa
+[2020-05-25 22:14:28.183227]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:14:28.201476]:Sem nota de corte e religa
+[2020-05-25 22:15:28.305258]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:15:28.321726]:Sem nota de corte e religa
+[2020-05-25 22:16:28.428593]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:16:28.441305]:Sem nota de corte e religa
+[2020-05-25 22:17:28.548081]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:17:28.564716]:Sem nota de corte e religa
+[2020-05-25 22:18:28.694858]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:18:28.710641]:Sem nota de corte e religa
+[2020-05-25 22:19:28.843619]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:19:28.860907]:Sem nota de corte e religa
+[2020-05-25 22:20:28.968574]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:20:28.984437]:Sem nota de corte e religa
+[2020-05-25 22:21:29.115679]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:21:29.129731]:Sem nota de corte e religa
+[2020-05-25 22:22:29.238288]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:22:29.247860]:Sem nota de corte e religa
+[2020-05-25 22:23:29.380138]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:23:29.397229]:Sem nota de corte e religa
+[2020-05-25 22:24:29.531140]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:24:29.548417]:Sem nota de corte e religa
+[2020-05-25 22:25:29.647029]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:25:29.664060]:Sem nota de corte e religa
+[2020-05-25 22:26:29.770971]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:26:29.786511]:Sem nota de corte e religa
+[2020-05-25 22:27:29.915849]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:27:29.930811]:Sem nota de corte e religa
+[2020-05-25 22:28:30.063276]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:28:30.080341]:Sem nota de corte e religa
+[2020-05-25 22:29:30.211472]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:29:30.224830]:Sem nota de corte e religa
+[2020-05-25 22:30:30.333014]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:30:30.349451]:Sem nota de corte e religa
+[2020-05-25 22:31:30.478531]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:31:30.494665]:Sem nota de corte e religa
+[2020-05-25 22:32:30.600517]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:32:30.616760]:Sem nota de corte e religa
+[2020-05-25 22:33:30.749240]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:33:30.763938]:Sem nota de corte e religa
+[2020-05-25 22:34:30.899333]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:34:30.915411]:Sem nota de corte e religa
+[2020-05-25 22:35:31.066110]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:35:31.081206]:Sem nota de corte e religa
+[2020-05-25 22:36:31.187372]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:36:31.205907]:Sem nota de corte e religa
+[2020-05-25 22:37:31.309593]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:37:31.325818]:Sem nota de corte e religa
+[2020-05-25 22:38:31.460140]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:38:31.471436]:Sem nota de corte e religa
+[2020-05-25 22:39:31.576045]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:39:31.586889]:Sem nota de corte e religa
+[2020-05-25 22:40:31.721739]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:40:31.734003]:Sem nota de corte e religa
+[2020-05-25 22:41:31.845935]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:41:31.857779]:Sem nota de corte e religa
+[2020-05-25 22:42:31.989263]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:42:32.000541]:Sem nota de corte e religa
+[2020-05-25 22:43:32.110296]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:43:32.122440]:Sem nota de corte e religa
+[2020-05-25 22:44:32.253237]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:44:32.264663]:Sem nota de corte e religa
+[2020-05-25 22:45:32.375588]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:45:32.387819]:Sem nota de corte e religa
+[2020-05-25 22:46:32.516592]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:46:32.533207]:Sem nota de corte e religa
+[2020-05-25 22:47:32.637277]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:47:32.646474]:Sem nota de corte e religa
+[2020-05-25 22:48:32.782896]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:48:32.797423]:Sem nota de corte e religa
+[2020-05-25 22:49:32.903946]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:49:32.918144]:Sem nota de corte e religa
+[2020-05-25 22:50:33.056457]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:50:33.072216]:Sem nota de corte e religa
+[2020-05-25 22:51:33.198711]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:51:33.213112]:Sem nota de corte e religa
+[2020-05-25 22:52:33.347495]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:52:33.364165]:Sem nota de corte e religa
+[2020-05-25 22:53:33.468116]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:53:33.481636]:Sem nota de corte e religa
+[2020-05-25 22:54:33.609987]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:54:33.627716]:Sem nota de corte e religa
+[2020-05-25 22:55:33.730838]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:55:33.746099]:Sem nota de corte e religa
+[2020-05-25 22:56:33.881407]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:56:33.894325]:Sem nota de corte e religa
+[2020-05-25 22:57:34.026433]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:57:34.043211]:Sem nota de corte e religa
+[2020-05-25 22:58:34.148104]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:58:34.166125]:Sem nota de corte e religa
+[2020-05-25 22:59:34.337978]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 22:59:34.350349]:Sem nota de corte e religa
+[2020-05-25 23:00:34.448013]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:00:34.462636]:Sem nota de corte e religa
+[2020-05-25 23:01:34.558953]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:01:34.574756]:Sem nota de corte e religa
+[2020-05-25 23:02:34.705168]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:02:34.720674]:Sem nota de corte e religa
+[2020-05-25 23:03:34.850720]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:03:34.866437]:Sem nota de corte e religa
+[2020-05-25 23:04:35.001135]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:04:35.014598]:Sem nota de corte e religa
+[2020-05-25 23:05:35.116157]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:05:35.129141]:Sem nota de corte e religa
+[2020-05-25 23:06:35.291495]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:06:35.303245]:Sem nota de corte e religa
+[2020-05-25 23:07:35.423868]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:07:35.434940]:Sem nota de corte e religa
+[2020-05-25 23:08:35.524059]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:08:35.537857]:Sem nota de corte e religa
+[2020-05-25 23:09:35.658486]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:09:35.671609]:Sem nota de corte e religa
+[2020-05-25 23:10:35.801468]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:10:35.813787]:Sem nota de corte e religa
+[2020-05-25 23:11:35.941270]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:11:35.954096]:Sem nota de corte e religa
+[2020-05-25 23:12:36.075962]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:12:36.087087]:Sem nota de corte e religa
+[2020-05-25 23:13:36.192423]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:13:36.205116]:Sem nota de corte e religa
+[2020-05-25 23:14:36.339988]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:14:36.351963]:Sem nota de corte e religa
+[2020-05-25 23:15:36.473833]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:15:36.485960]:Sem nota de corte e religa
+[2020-05-25 23:16:36.610783]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:16:36.623792]:Sem nota de corte e religa
+[2020-05-25 23:17:36.757285]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:17:36.772099]:Sem nota de corte e religa
+[2020-05-25 23:18:36.905651]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:18:36.916757]:Sem nota de corte e religa
+[2020-05-25 23:19:38.002550]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:19:38.018931]:Sem nota de corte e religa
+[2020-05-25 23:20:38.151788]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:20:38.168559]:Sem nota de corte e religa
+[2020-05-25 23:21:38.324212]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:21:38.339330]:Sem nota de corte e religa
+[2020-05-25 23:22:38.467076]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:22:38.507931]:Sem nota de corte e religa
+[2020-05-25 23:23:38.868070]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:23:38.876360]:Sem nota de corte e religa
+[2020-05-25 23:24:39.015164]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:24:39.023624]:Sem nota de corte e religa
+[2020-05-25 23:25:39.132801]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:25:39.140465]:Sem nota de corte e religa
+[2020-05-25 23:26:39.284908]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:26:39.293404]:Sem nota de corte e religa
+[2020-05-25 23:27:39.403097]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:27:39.414805]:Sem nota de corte e religa
+[2020-05-25 23:28:39.556551]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:28:39.565493]:Sem nota de corte e religa
+[2020-05-25 23:29:39.697366]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:29:39.709065]:Sem nota de corte e religa
+[2020-05-25 23:30:40.069682]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:30:40.079109]:Sem nota de corte e religa
+[2020-05-25 23:31:40.201999]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:31:40.211853]:Sem nota de corte e religa
+[2020-05-25 23:32:40.316671]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:32:40.328091]:Sem nota de corte e religa
+[2020-05-25 23:33:40.437424]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:33:40.447112]:Sem nota de corte e religa
+[2020-05-25 23:34:40.561859]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:34:40.572513]:Sem nota de corte e religa
+[2020-05-25 23:35:40.701163]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:35:40.711352]:Sem nota de corte e religa
+[2020-05-25 23:36:40.848295]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:36:40.858043]:Sem nota de corte e religa
+[2020-05-25 23:37:40.975130]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:37:40.982570]:Sem nota de corte e religa
+[2020-05-25 23:38:41.121558]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:38:41.130128]:Sem nota de corte e religa
+[2020-05-25 23:39:42.266260]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:39:42.275753]:Sem nota de corte e religa
+[2020-05-25 23:40:42.411194]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:40:42.419727]:Sem nota de corte e religa
+[2020-05-25 23:41:42.532307]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:41:42.539804]:Sem nota de corte e religa
+[2020-05-25 23:42:42.683529]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:42:42.690815]:Sem nota de corte e religa
+[2020-05-25 23:43:42.807576]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:43:42.816370]:Sem nota de corte e religa
+[2020-05-25 23:44:42.948827]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:44:42.956813]:Sem nota de corte e religa
+[2020-05-25 23:45:43.099086]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:45:43.106925]:Sem nota de corte e religa
+[2020-05-25 23:46:43.216647]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:46:43.224358]:Sem nota de corte e religa
+[2020-05-25 23:47:43.363855]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:47:43.372258]:Sem nota de corte e religa
+[2020-05-25 23:48:43.499475]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:48:43.514276]:Sem nota de corte e religa
+[2020-05-25 23:49:43.628571]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:49:43.640414]:Sem nota de corte e religa
+[2020-05-25 23:50:43.776540]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:50:43.787888]:Sem nota de corte e religa
+[2020-05-25 23:51:43.894971]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:51:43.904966]:Sem nota de corte e religa
+[2020-05-25 23:52:44.091497]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:52:44.099673]:Sem nota de corte e religa
+[2020-05-25 23:53:44.252061]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:53:44.263826]:Sem nota de corte e religa
+[2020-05-25 23:54:44.463788]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:54:44.473880]:Sem nota de corte e religa
+[2020-05-25 23:55:44.578638]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:55:44.588269]:Sem nota de corte e religa
+[2020-05-25 23:56:44.699804]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:56:44.710925]:Sem nota de corte e religa
+[2020-05-25 23:57:44.825057]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:57:44.835301]:Sem nota de corte e religa
+[2020-05-25 23:58:44.942515]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:58:44.950912]:Sem nota de corte e religa
+[2020-05-25 23:59:45.090401]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-25 23:59:45.098995]:Sem nota de corte e religa
+[2020-05-26 00:00:45.234985]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:00:45.243427]:Sem nota de corte e religa
+[2020-05-26 00:01:45.360901]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:01:45.369941]:Sem nota de corte e religa
+[2020-05-26 00:02:45.532199]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:02:45.540303]:Sem nota de corte e religa
+[2020-05-26 00:03:45.674517]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:03:45.682115]:Sem nota de corte e religa
+[2020-05-26 00:04:45.795924]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:04:45.804789]:Sem nota de corte e religa
+[2020-05-26 00:05:45.923678]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:05:45.931388]:Sem nota de corte e religa
+[2020-05-26 00:06:46.064531]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:06:46.072333]:Sem nota de corte e religa
+[2020-05-26 00:07:46.186267]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:07:46.194700]:Sem nota de corte e religa
+[2020-05-26 00:08:46.332120]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:08:46.340863]:Sem nota de corte e religa
+[2020-05-26 00:09:46.453397]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:09:46.460998]:Sem nota de corte e religa
+[2020-05-26 00:10:46.599867]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:10:46.608497]:Sem nota de corte e religa
+[2020-05-26 00:11:46.733653]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:11:46.742594]:Sem nota de corte e religa
+[2020-05-26 00:12:46.867888]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:12:46.876284]:Sem nota de corte e religa
+[2020-05-26 00:13:47.015728]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:13:47.023258]:Sem nota de corte e religa
+[2020-05-26 00:14:47.138717]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:14:47.146549]:Sem nota de corte e religa
+[2020-05-26 00:15:47.294864]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:15:47.303405]:Sem nota de corte e religa
+[2020-05-26 00:16:47.404670]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:16:47.412464]:Sem nota de corte e religa
+[2020-05-26 00:17:47.574875]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:17:47.582354]:Sem nota de corte e religa
+[2020-05-26 00:18:47.705134]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:18:47.713532]:Sem nota de corte e religa
+[2020-05-26 00:19:47.818610]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:19:47.827668]:Sem nota de corte e religa
+[2020-05-26 00:20:47.970306]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:20:47.980195]:Sem nota de corte e religa
+[2020-05-26 00:21:48.112806]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:21:48.127726]:Sem nota de corte e religa
+[2020-05-26 00:22:48.236141]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:22:48.246668]:Sem nota de corte e religa
+[2020-05-26 00:23:48.390697]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:23:48.398882]:Sem nota de corte e religa
+[2020-05-26 00:24:48.605363]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:24:48.617184]:Sem nota de corte e religa
+[2020-05-26 00:25:48.753174]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:25:48.763839]:Sem nota de corte e religa
+[2020-05-26 00:26:48.880631]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:26:48.892623]:Sem nota de corte e religa
+[2020-05-26 00:27:49.024027]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:27:49.033588]:Sem nota de corte e religa
+[2020-05-26 00:28:49.178342]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:28:49.187454]:Sem nota de corte e religa
+[2020-05-26 00:29:49.391079]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:29:49.398707]:Sem nota de corte e religa
+[2020-05-26 00:30:49.540418]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:30:49.548405]:Sem nota de corte e religa
+[2020-05-26 00:31:49.661374]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:31:49.669164]:Sem nota de corte e religa
+[2020-05-26 00:32:49.807266]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:32:49.814404]:Sem nota de corte e religa
+[2020-05-26 00:33:49.955117]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:33:49.963011]:Sem nota de corte e religa
+[2020-05-26 00:34:50.100469]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:34:50.109434]:Sem nota de corte e religa
+[2020-05-26 00:35:50.227122]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:35:50.234943]:Sem nota de corte e religa
+[2020-05-26 00:36:50.349334]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:36:50.358476]:Sem nota de corte e religa
+[2020-05-26 00:37:50.498560]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:37:50.508285]:Sem nota de corte e religa
+[2020-05-26 00:38:50.637729]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:38:50.645827]:Sem nota de corte e religa
+[2020-05-26 00:39:13.946979]:Cadastrando Nova nota de corte e religa
+[2020-05-26 00:39:13.949844]:Json recebido {'device': 'xpto1', 'corte': 1, 'data': '20/04/2020 10:10:10'}
+[2020-05-26 00:39:13.962344]:Resposta {'Mensagens': 'OK', 'Codigo': '5ecc8f610fab0219e49daec4'}
+[2020-05-26 00:39:50.762178]:Dispositivo {'device': 'xpto1'}, procurando por nota
+[2020-05-26 00:39:50.770372]:Nota encontrada
+[2020-05-26 00:39:50.770518]:Device: xpto1

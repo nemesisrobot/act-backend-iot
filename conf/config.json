@@ -1,0 +1,4 @@
+{ 
+	'servidor_banco':'localhost',
+        'porta_banco':27017
+}
