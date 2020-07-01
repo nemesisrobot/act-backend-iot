@@ -32,7 +32,7 @@ class OperacoesBanco:
 
         #senão retorna mensagem dizendo que já existe nota
         else:
-            return {'mensagem':'Já existe Uma nota'}
+            return {'mensagem':'Ja existe uma nota cadastra para este dispositivo'}
 
     #metódo para consultar todas as notas cadastradas
     def todasAsNotas(self):
