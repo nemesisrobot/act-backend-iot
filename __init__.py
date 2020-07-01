@@ -40,7 +40,7 @@ def cadastrodenotas():
     
     if 'nota' in resposta:
         escreve('Resposta {}'.format(str(resposta)))
-        return jsonify(resposta)
+        return jsonify(resposta), 400
     else:
         escreve('Resposta {}'.format(str({'Mensagens': 'OK', 'Codigo':resposta})))
         return jsonify ({'Mensagens': 'OK', 'Codigo':resposta}), 201
