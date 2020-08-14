@@ -5,6 +5,8 @@ from sys import path
 path.append('/scripts')
 from flask import Flask, request, jsonify
 from scripts.dao.controle import OperacoesBanco
+from scripts.common_util.geradorchave import GeradoraDeChave
+from scripts.common_util.parserJson import *
 import datetime
 
 
@@ -14,6 +16,10 @@ listastatus = []
 
 #constante de controle de banco
 OPERACAO = OperacoesBanco()
+
+#Constante para a chave geradora
+TAMANHOCHAVE = 25
+
 
 #criando objote para trabalho com endpoinst
 app = Flask(__name__)
@@ -125,7 +131,60 @@ def consultaStatusDispositivo(device):
         escreve('Dispositivo {}, Status encontrado'.format(str(payload)))
         escreve('Dispositivo {}, status {}'.format(str(payload),(str(status['corte']))))
         return jsonify({'device':status['device'], 'corte':status['corte'], 'data':status['data']})
+
+#endpoint para cadastro e atualziação de dados do dipositivo
+@app.route('/dispositivocadastraatualiza/<string:tipo>', methods=['POST'])
+def cadastraatualizadispositivo(tipo):
+
+    #instância classe para fazer parser dos dados
+   dadosdispositivo = ParserCadastroDispositivo(request.get_json())
+
+   #operação de cadastro
+   if(tipo=='CADASTRA'):
+    escreve('Parser de mensagem Json')
+    jsoncadastro = dadosdispositivo.getJsonCadastroDispositivo(GeradoraDeChave(request.get_json()['device'],TAMANHOCHAVE))
     
-    
+    escreve(jsoncadastro)
+    novachave = OPERACAO.dispositivoCadastro(jsoncadastro)
+   
+    escreve('Cadastro: {}'.format(str(novachave)))
+    return jsonify({'Mensagem':novachave})
+
+   #operação de atualziação de dados
+   elif(tipo=='ATUALIZA'):
+    escreve('Atualizando dados do dispositivo')
+    msg = OPERACAO.dispositivoAtualizacao(dadosdispositivo.getJsonAtualizaDispositivo())
+
+    escreve('Atualização: {}'.format(str(msg)))
+    return jsonify({'Mensagem':msg})
+
+    #erro para tipo invalido
+   else:
+    escreve('Url não existe')
+    return jsonify({'Mensagem':'Url nao existe'}),404
+
+#end-point para consulda e exclusão de dispositivo
+@app.route('/dispositivoconsultaexclui/<string:tipo>/<string:device>', methods=['GET'])
+def dispositivopesquisaexclui(tipo, device):
+    dispositivo = ParserCadastroDispositivo(device)
+    if(tipo=='CONSULTA'):
+        mensagem = dispositivo.removerSereliziacao(OPERACAO.dispositivoBusca(dispositivo.getJsonBuscaDispositivo()))
+        escreve(mensagem)
+        return jsonify(mensagem)
+    elif(tipo=='EXCLUIR'):
+        escreve('Deletano Disposivito')
+        mensagem = OPERACAO.dispositivoDelete(dispositivo.getJsonBuscaDispositivo())
+        escreve(mensagem)
+        return jsonify({'Mensagem':mensagem})
+    else:
+        escreve('Url não existe')
+        return jsonify({'Mensagem':'Url nao existe'}),404  
+
+#end-point para consultar todos os dispositivos
+@app.route('/dispositivobuscatodos', methods=['GET'])
+def dispositivoBuscaTodos():
+    dispositivo = ParserCadastroDispositivo(None)
+    return jsonify(dispositivo.getTodosOsDispositivos(OPERACAO.dispositivoPegaTodos()))
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5000)
+    app.run(host='0.0.0.0',port=5000, debug=True)

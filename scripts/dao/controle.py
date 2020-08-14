@@ -5,6 +5,7 @@
 from scripts.dao.banco import *
 from scripts.dao.notascortereliga import *
 from scripts.dao.statusdispositivocampo import *
+from scripts.dao.cadastrodispositivo import *
 #constantes , dados de acesso ao servidor de banco
 HOST='localhost'
 PORT=27017
@@ -63,7 +64,28 @@ class OperacoesBanco:
     #consulta status de um dispositivo especifico
     def dispositivoStatus(self, payload):
         return CONTROLESTATUS.consultaStatusAtual(COMUNICABANCO.getConexaoMongo(), payload)
-        
+
+    #cadastro de dispositivo
+    def dispositivoCadastro(self, payload):
+        return CadastraDipositivo(COMUNICABANCO.getConexaoMongo()).adicionaDispositivo(payload)
+
+    #atualização de dispositivo
+    def dispositivoAtualizacao(self, payload):
+        return CadastraDipositivo(COMUNICABANCO.getConexaoMongo()).atualizaDispositivo(payload)
+
+    #procura por dispositivo
+    def dispositivoBusca(self, payload):
+        return CadastraDipositivo(COMUNICABANCO.getConexaoMongo()).pesquisaDispositivo(payload)
+
+    def dispositivoDelete(self, payload):
+        return CadastraDipositivo(COMUNICABANCO.getConexaoMongo()).deletaDispositivo(payload)
+
+    def dispositivoPegaTodos(self):
+        return CadastraDipositivo(COMUNICABANCO.getConexaoMongo()).pesquisaTodosDipositivos()
+
+
+
+
         
         
             
