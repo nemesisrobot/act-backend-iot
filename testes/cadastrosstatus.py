@@ -7,7 +7,7 @@ headers = {'content-type':'application/json'}
 #links de acesso para cadastros notaas
 linkdevice1 = 'http://192.168.15.15:5000/dispositivostatus'
 
-payload = {'device':'xpto2','corte':0}
+payload = {'device':'xpto3','corte':1}
 payload1 = {'device':'xpto1','corte':0}
 
 def teste(payload):
