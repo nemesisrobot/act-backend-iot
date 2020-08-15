@@ -45,6 +45,9 @@ class OperacoesBanco:
         CONTROLENOTA.removerNota(COMUNICABANCO.getConexaoMongo(),payload)
         return nota
 
+    def consultaNotaUnica(self, payload):
+        return CONTROLENOTA.consultaNotaDispositivo(COMUNICABANCO.getConexaoMongo(), payload)
+
     #método para atualização de status do dispositivo
     def statusDispositivo(self, payload):
         device = {'device':payload['device']}

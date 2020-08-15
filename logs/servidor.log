@@ -10047,3 +10047,30 @@
 [2020-08-14 15:09:53.006598]:Parser de mensagem Json
 [2020-08-14 15:09:53.006896]:{'device': 'XXXXXXXXXXXXXXXXXXX', 'client': 'mixxi', 'address': 'rua catuti', 'description': 'building', 'key': 'XXXX0XX0XX26X3XX0X72X2XXX'}
 [2020-08-14 15:09:53.013267]:Cadastro: XXXX0XX0XX26X3XX0X72X2XXX
+[2020-08-15 14:55:27.447822]:Cadastrando Nova nota de corte e religa
+[2020-08-15 14:55:27.448341]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '30/06/2020 10:10:10'}
+[2020-08-15 14:55:27.600183]:Resposta {'Mensagens': 'OK', 'Codigo': '5f38218f2f449dd071d8dad5'}
+[2020-08-15 14:58:16.860904]:Dispositivo {'device': 'xpto3'}, procurando por status
+[2020-08-15 14:58:16.865941]:Dispositivo {'device': 'xpto3'}, Status encontrado
+[2020-08-15 14:58:16.870769]:Dispositivo {'device': 'xpto3'}, status 1
+[2020-08-15 14:58:25.892248]:Dispositivo {'device': 'xpto2'}, procurando por status
+[2020-08-15 14:58:25.897426]:Dispositivo {'device': 'xpto2'}, Status encontrado
+[2020-08-15 14:58:25.897604]:Dispositivo {'device': 'xpto2'}, status 0
+[2020-08-15 14:58:30.173227]:Dispositivo {'device': 'xpto5'}, procurando por status
+[2020-08-15 14:58:30.178346]:Dispositivo {'device': 'xpto5'}, sem status para esse dispositivo
+[2020-08-15 14:58:40.450395]:Cadastrando Nova nota de corte e religa
+[2020-08-15 14:58:40.451200]:Json recebido {'device': 'sla', 'corte': 1, 'data': '2020-08-15 14:58:40'}
+[2020-08-15 14:58:40.465949]:Resposta {'Mensagens': 'OK', 'Codigo': '5f3822502f449dd071d8dadb'}
+[2020-08-15 14:58:46.557216]:Cadastrando Nova nota de corte e religa
+[2020-08-15 14:58:46.557549]:Json recebido {'device': 'sla', 'corte': 1, 'data': '2020-08-15 14:58:46'}
+[2020-08-15 14:58:46.563114]:Resposta {'mensagem': 'Ja existe uma nota cadastra para este dispositivo'}
+[2020-08-15 14:58:59.302133]:Cadastrando Nova nota de corte e religa
+[2020-08-15 14:58:59.302512]:Json recebido {'device': 'sala4', 'corte': 0, 'data': '2020-08-15 14:58:59'}
+[2020-08-15 14:58:59.310761]:Resposta {'Mensagens': 'OK', 'Codigo': '5f3822632f449dd071d8dadf'}
+[2020-08-15 15:00:17.548152]:Cadastrando Nova nota de corte e religa
+[2020-08-15 15:00:17.548713]:Json recebido {'device': 'xpto1', 'corte': 0, 'data': '30/06/2020 10:10:10'}
+[2020-08-15 15:00:17.555707]:Resposta {'mensagem': 'Ja existe uma nota cadastra para este dispositivo'}
+[2020-08-15 15:00:25.846342]:Atualizando status do device xpto3
+[2020-08-15 15:00:25.959996]:Respondendo com 201
+[2020-08-15 15:00:31.044288]:Atualizando status do device xpto1
+[2020-08-15 15:00:31.065683]:Respondendo com 201

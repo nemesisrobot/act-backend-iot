@@ -79,3 +79,23 @@ class ParserCadastroDispositivo(MensagemJson):
 			return listadispositivos
 		except:
 			return {'Mensagem':'Nenhum Dipositivo Localizado!!!'}
+
+class ParserNotasServico(MensagemJson):
+
+	def __init__(self, json):
+		super(ParserNotasServico, self).__init__(json)
+
+	#método que retorna json do device
+	def getDispositivo(self, dispositivo):
+		return {'device':dispositivo}
+
+	def getTrataNota(self, notas):
+		try:
+
+			return {
+					'device':notas['device'],
+					'corte':notas['corte'],
+					'data':notas['data']
+				}
+		except:
+			return {'Mensagem':'Nenhuma Nota encontrada'}

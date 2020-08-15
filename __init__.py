@@ -7,8 +7,11 @@ from flask import Flask, request, jsonify
 from scripts.dao.controle import OperacoesBanco
 from scripts.common_util.geradorchave import GeradoraDeChave
 from scripts.common_util.parserJson import *
+from scripts.common_util.escrevelog import *
 import datetime
 
+#instanciando classe para escrita de log
+log = EscreveLogSistema('logs/servidor.log')
 
 #lista de notas
 listanotas = []
@@ -24,59 +27,64 @@ TAMANHOCHAVE = 25
 #criando objote para trabalho com endpoinst
 app = Flask(__name__)
 
-#metodo para escrever em log
-def escreve(conteudo):
-    escreverlog = open('logs/servidor.log','a+')
-    escreverlog.write('[{}]:{}'.format(str(datetime.datetime.now()),str(conteudo)))
-    escreverlog.write('\n')
-    escreverlog.close()
+
     
 #end-point para cadastra notas
 @app.route('/notaservico', methods = ['POST'])
 def cadastrodenotas():
-    escreve('Cadastrando Nova nota de corte e religa')
+    log.escreve('Cadastrando Nova nota de corte e religa')
     novanota = request.get_json()
     payload = {
            'device':novanota['device'],
            'corte':novanota['corte'],
            'data':novanota['data']
         }
-    escreve('Json recebido {}'.format(str(payload)))
+    log.escreve('Json recebido {}'.format(str(payload)))
     resposta = str(OPERACAO.cadastroNota(payload))
     
     if 'nota' in resposta:
-        escreve('Resposta {}'.format(str(resposta)))
+        log.escreve('Resposta {}'.format(str(resposta)))
         return jsonify(resposta), 400
     else:
-        escreve('Resposta {}'.format(str({'Mensagens': 'OK', 'Codigo':resposta})))
+        log.escreve('Resposta {}'.format(str({'Mensagens': 'OK', 'Codigo':resposta})))
         return jsonify ({'Mensagens': 'OK', 'Codigo':resposta}), 201
 
 #end-point para consultar todas as notas
 @app.route('/notaservico', methods = ['GET'])
 def todasAsNotasCadastradas():
     listanotas.clear()
-    escreve('Consultando todas as notas da base')
+    log.escreve('Consultando todas as notas da base')
     notas = OPERACAO.todasAsNotas()
     for x in notas:
         print({'device':x['device'], 'corte':x['corte'], 'data':x['data']})
         listanotas.append({'device':x['device'], 'corte':x['corte'], 'data':x['data']})
     return jsonify(listanotas)
 
+#endpoint para consulta uma nota apenas
+@app.route('/notaservicounica/<string:device>')
+def notaDispositivoUnica(device):
+    #procurando por nota
+    parsernotas = ParserNotasServico(None)
+    nota = OPERACAO.consultaNotaUnica(parsernotas.getDispositivo(device))
+    log.escreve(nota)
+    return jsonify(parsernotas.getTrataNota(nota))
+
+
 #end-point para dispositivo consultar nota
 @app.route('/notaservico/<string:device>', methods = ['GET'])
 def notaDispositivo(device):
     #monta payloda para busca de nota
     payload = {'device':str(device)}
-    escreve('Dispositivo {}, procurando por nota'.format(str(payload)))
+    log.escreve('Dispositivo {}, procurando por nota'.format(str(payload)))
     sem_nota = {'device':3, 'corte':3, 'data':3}
     
     respotadevice = OPERACAO.notaDispositivo(payload)
     if respotadevice is None:
-        escreve('Sem nota de corte e religa')
+        log.escreve('Sem nota de corte e religa')
         return jsonify(sem_nota)
     else:
-        escreve('Nota encontrada')
-        escreve('Device: {}'.format(respotadevice['device']))
+        log.escreve('Nota encontrada')
+        log.escreve('Device: {}'.format(respotadevice['device']))
         return jsonify({'device':respotadevice['device'], 'corte':respotadevice['corte'], 'data':respotadevice['data']})
 
 #end-point para atualização de status
@@ -94,22 +102,22 @@ def atualizaStatusDispositivo():
         }
     
     #executa procedimentos em base de dados
-    escreve('Atualizando status do device {}'.format(str(dispositivocampo['device'])))
+    log.escreve('Atualizando status do device {}'.format(str(dispositivocampo['device'])))
     OPERACAO.statusDispositivo(payload)
 
     #retorna ok para device
-    escreve('Respondendo com {}'.format(str(201)))
+    log.escreve('Respondendo com {}'.format(str(201)))
     return jsonify({'Mensagem':'ok'}),201
     
 #end-point para retornar status de todos os dispositivos
 @app.route('/dispositivostatus', methods=['GET'])
 def todosOsStatusDispositivos():
     listastatus.clear()
-    escreve('Checando status de todos os dispositivos')
+    log.escreve('Checando status de todos os dispositivos')
     status = OPERACAO.todosOsStatus()
     for s in status:
         print({'device':s['device'], 'corte':s['corte'], 'data':s['data']})
-        escreve(str({'device':s['device'], 'corte':s['corte'], 'data':s['data']}))
+        log.escreve(str({'device':s['device'], 'corte':s['corte'], 'data':s['data']}))
         listastatus.append({'device':s['device'], 'corte':s['corte'], 'data':s['data']})
     return jsonify(listastatus)
 
@@ -121,15 +129,15 @@ def consultaStatusDispositivo(device):
     sem_status = {'device':None, 'corte':None, 'data':None}
 
     #fazendo busca
-    escreve('Dispositivo {}, procurando por status'.format(str(payload)))
+    log.escreve('Dispositivo {}, procurando por status'.format(str(payload)))
     status = OPERACAO.dispositivoStatus(payload)
 
     if status is None:
-        escreve('Dispositivo {}, sem status para esse dispositivo'.format(str(payload)))
+        log.escreve('Dispositivo {}, sem status para esse dispositivo'.format(str(payload)))
         return jsonify(sem_status)
     else:
-        escreve('Dispositivo {}, Status encontrado'.format(str(payload)))
-        escreve('Dispositivo {}, status {}'.format(str(payload),(str(status['corte']))))
+        log.escreve('Dispositivo {}, Status encontrado'.format(str(payload)))
+        log.escreve('Dispositivo {}, status {}'.format(str(payload),(str(status['corte']))))
         return jsonify({'device':status['device'], 'corte':status['corte'], 'data':status['data']})
 
 #endpoint para cadastro e atualziação de dados do dipositivo
@@ -141,26 +149,26 @@ def cadastraatualizadispositivo(tipo):
 
    #operação de cadastro
    if(tipo=='CADASTRA'):
-    escreve('Parser de mensagem Json')
+    log.escreve('Parser de mensagem Json')
     jsoncadastro = dadosdispositivo.getJsonCadastroDispositivo(GeradoraDeChave(request.get_json()['device'],TAMANHOCHAVE))
     
-    escreve(jsoncadastro)
+    log.escreve(jsoncadastro)
     novachave = OPERACAO.dispositivoCadastro(jsoncadastro)
    
-    escreve('Cadastro: {}'.format(str(novachave)))
+    log.escreve('Cadastro: {}'.format(str(novachave)))
     return jsonify({'Mensagem':novachave})
 
    #operação de atualziação de dados
    elif(tipo=='ATUALIZA'):
-    escreve('Atualizando dados do dispositivo')
+    log.escreve('Atualizando dados do dispositivo')
     msg = OPERACAO.dispositivoAtualizacao(dadosdispositivo.getJsonAtualizaDispositivo())
 
-    escreve('Atualização: {}'.format(str(msg)))
+    log.escreve('Atualização: {}'.format(str(msg)))
     return jsonify({'Mensagem':msg})
 
     #erro para tipo invalido
    else:
-    escreve('Url não existe')
+    log.escreve('Url não existe')
     return jsonify({'Mensagem':'Url nao existe'}),404
 
 #end-point para consulda e exclusão de dispositivo
@@ -169,22 +177,24 @@ def dispositivopesquisaexclui(tipo, device):
     dispositivo = ParserCadastroDispositivo(device)
     if(tipo=='CONSULTA'):
         mensagem = dispositivo.removerSereliziacao(OPERACAO.dispositivoBusca(dispositivo.getJsonBuscaDispositivo()))
-        escreve(mensagem)
+        log.escreve(mensagem)
         return jsonify(mensagem)
     elif(tipo=='EXCLUIR'):
-        escreve('Deletano Disposivito')
+        log.escreve('Deletano Disposivito')
         mensagem = OPERACAO.dispositivoDelete(dispositivo.getJsonBuscaDispositivo())
-        escreve(mensagem)
+        log.escreve(mensagem)
         return jsonify({'Mensagem':mensagem})
     else:
-        escreve('Url não existe')
+        log.escreve('Url não existe')
         return jsonify({'Mensagem':'Url nao existe'}),404  
 
 #end-point para consultar todos os dispositivos
 @app.route('/dispositivobuscatodos', methods=['GET'])
 def dispositivoBuscaTodos():
     dispositivo = ParserCadastroDispositivo(None)
-    return jsonify(dispositivo.getTodosOsDispositivos(OPERACAO.dispositivoPegaTodos()))
+    dispositivo = dispositivo.getTodosOsDispositivos(OPERACAO.dispositivoPegaTodos())
+    log.escreve(dispositivo)
+    return jsonify(dispositivo)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000, debug=True)
