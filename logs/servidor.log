@@ -10074,3 +10074,6 @@
 [2020-08-15 15:00:25.959996]:Respondendo com 201
 [2020-08-15 15:00:31.044288]:Atualizando status do device xpto1
 [2020-08-15 15:00:31.065683]:Respondendo com 201
+[2020-08-18 14:29:22.841696]:Consultando todas as notas da base
+[2020-08-18 14:35:09.126904]:{'_id': ObjectId('5efd0742ff04c5d189f5043b'), 'device': 'xpto3', 'corte': 1, 'data': '2020-07-01 18:59:30'}
+[2020-08-18 14:37:00.368916]:Consultando todas as notas da base

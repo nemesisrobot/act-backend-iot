@@ -4,6 +4,7 @@
 from sys import path
 path.append('/scripts')
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from scripts.dao.controle import OperacoesBanco
 from scripts.common_util.geradorchave import GeradoraDeChave
 from scripts.common_util.parserJson import *
@@ -26,7 +27,7 @@ TAMANHOCHAVE = 25
 
 #criando objote para trabalho com endpoinst
 app = Flask(__name__)
-
+CORS(app, resources={r"/*": {"origins": "*"}})
 
     
 #end-point para cadastra notas
